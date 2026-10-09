@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test('has title', async ({ page }) => {
-  console.log("executing test 1");
+  console.log("executing test 1 - ok");
   await page.goto('https://playwright.dev/');
 
   // Expect a title "to contain" a substring.
@@ -20,7 +20,7 @@ test('get error', async ({ page }) => {
 });
 
 test('get started link @UAT', async ({ page }) => {
-  console.log("executing test 3");
+  console.log("executing test 3 - ok");
   await page.goto('https://playwright.dev/');
 
   // Click the get started link.
